@@ -26,7 +26,7 @@
 
 <br />
 
-<img src="docs/assets/rea-hopper-analysis.png" alt="REA launching its analysis bridge inside Hopper while inspecting a native binary" width="1200" />
+<img src="docs/assets/rea-analysis-flow.svg" alt="REA analysis flow" width="1200" />
 
 <br /><br />
 
@@ -34,7 +34,7 @@
 <tr>
 <td align="center" width="360">
   <a href="https://discord.gg/GkcryMnJDM">
-    <img src="docs/assets/discord.svg" height="42" alt="Discord" /><br />
+    <img src="docs/assets/community-chat.svg" height="42" alt="Community chat" /><br />
     <strong>Join the Reverse Engineering Community</strong>
   </a><br />
   <sub>Discord · Q&amp;A · Show and Tell</sub>
@@ -184,7 +184,7 @@ for features added since the latest npm release.
 
 ## Showcases
 
-[![Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases](docs/assets/rea-showcases.png)](https://rea.tools/showcase/)
+[![Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases](docs/assets/rea-showcases.svg)](https://rea.tools/showcase/)
 
 ### DX-Ball: reconstruct a sound-pan calculation
 
