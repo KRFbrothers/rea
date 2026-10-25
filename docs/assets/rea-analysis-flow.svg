@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">REA analysis flow</title>
+  <desc id="desc">Your agent asks a question about a local target. REA inspects and traces through local analysis adapters, returns evidence, and supports follow-up questions as your agent explains, implements and tests.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="#5b6570" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="blue-arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 6 L1 11" fill="none" stroke="#294f82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#20252b">
+    <text x="60" y="104" font-size="62" font-weight="700">REA analysis flow</text>
+    <text x="60" y="164" font-size="30" fill="#5b6570">One MCP for reverse engineering across binaries, applications, and runtime behavior.</text>
+
+    <g fill="none" stroke="#87929e" stroke-width="3.5">
+      <rect x="60" y="300" width="325" height="250" rx="16"/>
+      <rect x="445" y="300" width="325" height="250" rx="16" stroke="#294f82"/>
+      <rect x="830" y="300" width="325" height="250" rx="16"/>
+      <rect x="1215" y="300" width="325" height="250" rx="16"/>
+      <rect x="445" y="650" width="325" height="180" rx="16"/>
+    </g>
+
+    <g text-anchor="middle">
+      <text x="222" y="378" font-size="42" font-weight="700">1. Ask</text>
+      <text x="222" y="440" font-size="27" fill="#5b6570">Your agent +</text>
+      <text x="222" y="478" font-size="27" fill="#5b6570">local target</text>
+      <text x="222" y="516" font-size="25" fill="#87929e">App / binary / browser</text>
+
+      <text x="607" y="372" font-size="34" font-weight="700">2. Inspect &amp; trace</text>
+      <text x="607" y="462" font-size="72" font-weight="700" fill="#294f82">REA</text>
+      <text x="607" y="512" font-size="30" fill="#5b6570">CLI / MCP</text>
+
+      <text x="992" y="378" font-size="32" font-weight="700">3. Read the evidence</text>
+      <text x="992" y="446" font-size="28" fill="#5b6570">Code / references /</text>
+      <text x="992" y="484" font-size="28" fill="#5b6570">unknowns</text>
+
+      <text x="1377" y="378" font-size="32" font-weight="700">4. Use what you learn</text>
+      <text x="1377" y="452" font-size="46" font-weight="700">Your agent</text>
+      <text x="1377" y="500" font-size="26" fill="#5b6570">Explain / implement / test</text>
+
+      <text x="607" y="722" font-size="38" font-weight="700">Analysis tools</text>
+      <text x="607" y="772" font-size="28" fill="#5b6570">Local analysis adapters</text>
+    </g>
+
+    <text x="992" y="222" font-size="30" font-weight="700" fill="#294f82" text-anchor="middle">Follow-up question</text>
+  </g>
+
+  <g fill="none" stroke="#5b6570" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M385 425 H437"/>
+    <path d="M770 425 H822"/>
+    <path d="M1155 425 H1207"/>
+    <path d="M607 648 V558"/>
+  </g>
+  <path d="M1377 298 V262 Q1377 232 1347 232 H637 Q607 232 607 262 V288" fill="none" stroke="#294f82" stroke-width="4" marker-end="url(#blue-arrow)"/>
+</svg>
